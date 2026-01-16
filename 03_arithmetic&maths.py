@@ -1,3 +1,4 @@
+#Arithmetic
 friends = 0
 
 #Addition
@@ -25,3 +26,22 @@ friends = 0
 #friends %= 3
 
 print(friends)
+
+#MATHS
+
+x = 3.14
+y = -4
+z = 5
+
+#result = round(x)
+#round() - function removes the floating point number.
+#result = abs(y)
+#abs() - function gives you absolute value of any number like -4 ---> 4 (minus got removed from the number).
+#result =pow(4, 6)
+#pow() - function gives you 6 times 4 value like 4x4x4x4x4x4 = 4096.
+#result = max(x, y, z)
+#max() - function gives you maximum value from all three.
+#result = min(x, y, z)
+#min() - function gives you minimum value from all three.
+
+print(result)
