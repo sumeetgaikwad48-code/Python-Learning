@@ -1,5 +1,5 @@
 #input = A function that prompts the user to enter data and returns the entered data as a string
-
+#helps you to contact with user
 name = input("What is your name?: ")
 age = int(input("How old are you?: "))
 age +=1
