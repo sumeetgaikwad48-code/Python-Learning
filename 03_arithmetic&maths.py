@@ -26,7 +26,7 @@ friends = 0
 #friends %= 3
 
 print(friends)
-
+##########
 #MATHS
 
 x = 3.14
@@ -44,4 +44,18 @@ z = 5
 #result = min(x, y, z)
 #min() - function gives you minimum value from all three.
 
+print(result)
+##########
+import math
+
+x = 4.6
+
+#print(math.pi)
+#print(math.e)
+
+#result = math.sqrt(x)
+#result = math.ceil(x)
+#ceil always round number up
+result = math.floor(x)
+#floor always round number down
 print(result)
