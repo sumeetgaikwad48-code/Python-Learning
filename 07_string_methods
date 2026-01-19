@@ -1,0 +1,16 @@
+name = input("Enter your full name: ")
+phone_number = input("Enter your phone number#: ")
+
+
+#result = len(name) #It counts spaces too.
+#result = name.find(" ") #It helps to find space or alphabet
+#result = name.rfind("e") #It gives you last occurrence of any space or alphabet (Important⚠️ : If python don't find anything it will give you -1)
+#result = name.capitalize() #Only first letter got capitalize
+#result = name.upper() #It upper case all letters
+#result = name.lower() #It lower case all letters
+#result = name.isdigit() #It only gives True when there is only digits. if there is digits + alphabets it will give you False
+#result = name.isalpha() #It only gives True when there is only alphabets. if there is alphabets + digits it will give you False
+
+#result = phone_number.count("-") #It will count
+#result = phone_number.replace("-", "") #It can replace anything with new thing
+print(result)
