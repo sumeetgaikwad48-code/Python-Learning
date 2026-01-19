@@ -1,0 +1,19 @@
+#indexing = accessing elements of a sequence using [] (indexing operators)
+#           [start : end : step]
+
+credit_number = "1234-5678-9012-3456"
+#index number always starts from 0 :)
+#print(credit_number[4])
+#print(credit_number[:4]) #it will automatically print before numbers like Ex : "1234"
+#print(credit_number[5:9]) #it does not include that dash in numbers
+#print(credit_number[5:]) #it will automatically print after numbers like Ex : "5678-9012-3456"
+#print(credit_number[-4]) #negative index should be start by -1, -2, -3...... not by 0.
+#print(credit_number[::]) #it will give whole numbers from start and end
+#print(credit_number[::2]) #it will give numbers by skipping 1 number like start from 1 and end from 6 only but 1[2]3[4] the brackets numbers will be missing
+#print(credit_number[::3]) #it is same as above but it will give you numbers by skipping 2 numbers now
+
+#last_digits = credit_number[-4:]
+#print(f"XXXX-XXXX-XXXX-{last_digits}")
+
+#credit_numbers = credit_number[::-1]
+#print(credit_numbers)
