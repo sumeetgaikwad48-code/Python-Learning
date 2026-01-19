@@ -3,7 +3,7 @@
 #                    and = both conditions must be True.
 #                    not = inverts the condition (not False, not True).
 
-#OR
+#OR 
 temp = 25
 is_raining = True
 if temp > 35 or temp < 0 or is_raining:
