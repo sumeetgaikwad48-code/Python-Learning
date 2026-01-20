@@ -1,0 +1,9 @@
+#nester loops = A loop within another loop (outer, inner)
+#               outer loop:
+#                   inner loop:   ---> (given tap here)
+
+for x in range(3): #this will repeat for loop inside it.
+    for y in range(1, 10):
+        print(y, end=" ") #---> it helps to align the for loop with symbols too.
+    print() #---> it will print on new line.
+
