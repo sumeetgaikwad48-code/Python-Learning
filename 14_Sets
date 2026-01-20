@@ -1,0 +1,12 @@
+#SETS
+#It's unordered
+#You can't add same elements means NO Duplicates allowed
+fruits = {"apple", "banana", "cherry", "orange"}
+
+#print(fruits[0]) #--->we can't use index numbering in sets. due to elements are unordered
+#fruits.add("pineapple") #---> we can add elements but still they are unordered
+#fruits.remove("orange") #---> we can remove elements but still they are unordered
+#fruits.pop() #---> pop() will remove whatever the first element is(it's random)
+#fruits.clear()
+
+print(fruits)
