@@ -1,0 +1,10 @@
+#TUPLES
+
+fruits = ("apple", "banana", "cherry", "orange")
+
+#print(len(fruits))
+#print("pineapple" in fruits)
+#print(fruits.index("apple"))
+#print(fruits.count("coconut"))
+for fruit in fruits: #they are iterables
+    print(fruit)
