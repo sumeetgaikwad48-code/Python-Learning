@@ -1,0 +1,12 @@
+# format specifiers = format a value based on what flags are inserted
+
+price1 = 450.2553
+price2 = -370.23
+price3 = 12.2455
+
+print(f"Price 1 is ${price1:10}")
+print(f"Price 2 is ${price2:10}")
+print(f"Price 3 is ${price3:10}")
+#:.2f ---> This will show only 2 numbers after point. if there is ":.3f" it will show you 3 numbers after point
+#:10 ---> It will make every number arrangement by adding 0 in it. You can use  "<" or ">" it will shift 0 before or after the numbers
+#:, ---> it will separate numbers by comma like ex: "1,000" or "34,234". separated by comma
