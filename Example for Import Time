@@ -1,0 +1,12 @@
+import time
+my_time = int(input("Enter the time: "))
+for x in range(my_time, 0 , -1):  #changing positions of time and users time and adding negative 1 can reverse this too.
+    seconds = x % 60
+    minutes = int(x / 60) % 60
+    hours = int(x / 3600)
+    print(f"{hours:02}:{minutes:02}:{seconds:02}")
+    time.sleep(1)
+
+print("TIME'S UP")
+
+#seconds, minutes and hours formulas are to found the remaining time left like if 1 hour finished then how many minutes will left it will show you then same with seconds
