@@ -1,0 +1,8 @@
+#while loops ---> execute some code WHILE some condition remains true
+#It continues asking if you have done something wrong
+name = input("Enter your name: ")
+
+while name == "":
+    print("You did not enter your name")
+    name = input("Enter your name: ") #---> if you don't give this statement it will go in a loop. it will never stop
+print(f"Hello {name}")
