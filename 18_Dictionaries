@@ -1,0 +1,34 @@
+# dictionary = a collection of (key:value} pairs
+#              ordered and changeable. No duplicates
+
+capitals = {"USA": "Washington D.C",
+            "India": "New Delhi",
+            "China": "Beijing",
+            "Russia": "Moscow"}
+#              ^         ^
+#              |         |
+#             KEYS     VALUES
+#print(capitals.get("China"))
+
+#if capitals.get("Japan"):
+#    print("That capital exists")
+#else:
+#    print("That capital does not exist")
+
+#capitals.update({"Germany": "Berlin"}) #You update the dictionary by this method.
+#capitals.update({"USA": "New Delhi"}) #You can also update the existing dictionary from this method
+#capitals.pop("China") #pop method remove the element from the dictionary which you have written
+#capitals.popitem() # popitem will remove latest element from the dictionary like example: russia
+#capitals.clear()
+
+#keys = capitals.keys()
+#for key in keys:
+#    print(key)
+
+#values = capitals.values()
+#for value in values:
+#    print(value)
+
+#items = capitals.items()
+#for key, value in items:
+#    print(f"{key}: {value}")
