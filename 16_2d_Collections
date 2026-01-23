@@ -1,0 +1,9 @@
+fruits =     ["apple", "orange", "banana", "coconut"]
+vegetables = ["spinach", "carrot", "broccoli", "potatoes"]
+meats =      ["chicken", "fish", "beef", "mutton"]
+
+groceries = [fruits, vegetables, meats]
+
+print(groceries[2][2])
+
+#This is the example of 2D Collection.
