@@ -1,0 +1,10 @@
+groceries = [["apple", "orange", "banana", "coconut"],
+             ["spinach", "carrot", "broccoli", "potatoes"],
+             ["chicken", "fish", "beef", "mutton"]]
+
+for collection in groceries:
+    for food in collection:
+        print(food, end = " ")
+    print()
+
+#Nested loops can print single elements in new line
