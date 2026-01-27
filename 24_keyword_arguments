@@ -1,0 +1,10 @@
+#Keyword Arguments
+
+def hello(greeting, title, first, last):
+    print(f"{greeting} {title}{first} {last}")
+
+#hello("Hello", title="Mr.", last="Squarepants", first="Spongebob")
+#positional arguments follows keyword arguments so our greeting will be first then others
+#hello("Hello", title="Mr.", last="John", first="James")
+
+print("1", "2", "3", "4", "5", sep="-")
