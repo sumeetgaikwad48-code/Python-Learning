@@ -1,0 +1,12 @@
+# functions = A block of re-usable code
+#             place () after the function name to invoke it
+
+def happy_birthday(name, age): #The position of parameters does matters!
+    print(f"Happy Birthday to {name}!")
+    print(f"You are {age} years old!")
+    print("Happy Birthday to you!")
+    print()
+
+happy_birthday("Courage", 5)
+happy_birthday("Eustase", 50)
+happy_birthday("Muriel", 55)
