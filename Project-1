@@ -1,5 +1,5 @@
 #Python Calculator
-
+ 
 operator = input("Enter sn Operator (+ - * /): ")
 
 num1 = float(input("Enter first number: "))
