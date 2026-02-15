@@ -1,0 +1,17 @@
+import datetime
+
+date = datetime.date(2026, 1, 2)  #--->changeable date
+today = datetime.date.today()     #--->current date
+
+time = datetime.time(12, 30, 0)   #--->changeable time
+now = datetime.datetime.now()     #--->current time
+
+now = now.strftime("%H:%M:%S - %m/%d/%y")    #--->customize current time from this method
+
+target_datetime = datetime.datetime(2027, 1, 20, 9, 30, 0)
+current_datetime = datetime.datetime.now()
+
+if target_datetime < current_datetime:
+    print("Target date has passed")
+else:
+    print("Target date has NOT passed")
