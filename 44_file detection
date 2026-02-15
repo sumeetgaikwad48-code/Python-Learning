@@ -1,0 +1,26 @@
+# Decorator = A function that extends the behavior opf another function
+#             w/o modifying the base function
+#             Pass the base function as an argument to the decorator
+
+#             @add_sprinkles
+#             get_ice_crea("vanilla")
+
+# this below will help to create a decorator. it's just functions that our decorator should have.
+def add_sprinkles(func):
+    def wrapper(*args, **kwargs):   #---> our wrapper function isn't set-up to accept arguments
+        print("*You add sprinkles🎍*")
+        func(*args, **kwargs)
+    return wrapper
+#wrapper function is basically helps to run code with permission. without wrapper code always run and add sprinkles and fudge first
+def add_fudge(func):
+    def wrapper(*args, **kwargs):
+        print("*You add fudge🍫*")
+        func(*args, **kwargs)
+    return wrapper
+
+@add_sprinkles
+@add_fudge
+def get_ice_cream(flavor):
+    print(f"Here is {flavor} ice cream🍨")
+
+get_ice_cream("chocolate")
